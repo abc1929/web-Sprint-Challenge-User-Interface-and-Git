@@ -32,28 +32,34 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
+<br/>
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
+<br/>
 - Semantic HTML is the practice of using html tags that are able to convey its corresponding content rather than not doing that, like using \<div> for everything. Even though you can achieve the same end product that users see, it is much harder for yourself and other developers to parse through your HTML. You're also missing out on some nice defaults those semantic tags provide that generally would fit the use cases of those contents anyway.
 
-
+<br/>
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
+<br/>
 - One big difference between them is how the boxes of content are placed sequentially. ```display: block;``` orders them from the top-down while ```display: inline;``` orders them left-right.
 - A second big difference is that block level element by default takes up 100% of the width while inline element takes up only as much space as they need; they will not respect a css width property as a result, for example. 
 
-
+<br/>
 3. What are the 4 areas of the box model?
+<br/>
 - They are margin at the outermost 
 - Then the border
 - Then the padding
 - Then the content, whose area corresponds to the height and width.
 
+<br/>
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+<br/>
 - It aligns the items according to the cross axis.
 - for example for some row flexed module taking up the whole screen, it would place its items from screen top to screen middle, while not affecting the spacing between the items on the main axis.
 
+<br/>
 5. Explain why git is valuable to a team of developers.
+<br/>
 - For one, git is at its heart a version control system, so it would be easy to manage different versions and roll back easily if something breaks on the current version;
 - It allows easy congregation of different parts of code on the same project.
 - It enables ease of remote works among developers.
@@ -118,4 +124,4 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [x] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
